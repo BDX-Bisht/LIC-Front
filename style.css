@@ -1,0 +1,246 @@
+* {
+    font-family: sans-serif;
+}
+
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+* a:hover {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    border-top: 3px solid #00529c;
+}
+
+header {
+    display: flex;
+    width: 77rem;
+    margin: auto;
+}
+
+.logo {
+    margin-top: 1rem;
+    ;
+}
+
+.g20 {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0px;
+}
+
+.g20 img {
+    margin-left: 2rem;
+}
+
+#ribbon1 {
+    position: absolute;
+    z-index: -5;
+    top: -3px;
+}
+
+.g20 p {
+    font-size: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: -24px 4rem 0px 4rem;
+}
+
+.g20 p img {
+    margin-left: 8px;
+}
+
+#social {
+    background: #00529c;
+    margin-left: 0px;
+    padding: 7px 10px;
+    border-radius: 64%;
+}
+
+#social i {
+    font-size: 13px;
+    margin-right: 0px;
+}
+
+
+.download a {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.download button {
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #00529c;
+    font-size: 16px;
+}
+
+.download input {
+    padding: 8px 0px;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 13rem;
+    border-radius: 20px;
+    border: 0.5px solid grey;
+}
+
+.download a i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.download p {
+    background: white;
+    position: absolute;
+    top: 52px;
+    right: 105px;
+    border: 1px solid #cbcbcb;
+    padding: 2px 3px;
+    border-radius: 7px;
+}
+
+.download p i {
+    padding: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    background: #cbe7ef;
+    border-radius: 6px;
+}
+
+nav {
+    display: flex;
+    width: 77rem;
+    margin: 1rem auto;
+    border-radius: 25px;
+    background: #ffcb08;
+}
+
+nav div {
+    padding: 25px 20px;
+}
+
+.home i,
+.login i {
+    font-size: 20px;
+}
+
+.about {
+    background-color: #00529c;
+}
+
+.about a {
+    color: white;
+    padding: 0px 1.4rem;
+    font-weight: bold;
+}
+
+.login a {
+    color: #00529c;
+}
+
+.policy {
+    width: 77rem;
+    margin: 1rem auto;
+    box-shadow: 0px 16px 40px 0px #aa9ac1;
+    border-radius: 25px;
+}
+
+.online {
+    padding: 32px;
+    background: #00529c;
+    color: white;
+    border-radius: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home2 {
+    position: absolute;
+    top: 17.1rem;
+    left: 60px;
+    background: #ffcb09;
+    padding: 1rem 30px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-size: 14px;
+    color: #545454;
+}
+
+.policy_pic {
+    padding: 15px;
+}
+
+.policy_pic img {
+    margin: 10px;
+    width: 11rem;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.policy_pic a {
+    display: inline-block;
+    position: relative;
+    background: #0a4d83;
+    color: #FFF;
+    font-size: 1.3em;
+    padding: 5px 24px;
+    padding-top: 8px;
+}
+
+.policy_pic h4 {
+    text-align: end;
+    font-size: 20px;
+    padding-right: 1rem;
+}
+
+footer {
+    background-color: #0a4d83;
+    color: white;
+}
+
+.top-footer ul {
+    padding: 2rem 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    border-bottom: 2px solid #a19e9e;
+}
+
+.top-footer>ul>li {
+    margin: 0px 1.3rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bottom-footer{
+    display: flex;
+    width: 77rem;
+    margin: auto;
+    padding: 1rem 0px;
+}
+
+.left{
+    width: 52rem;
+}
+
+.left p{
+    margin: 10px 0px;
+}
+
+.right{
+    margin-top: 2rem;
+}
+
+.right p{
+    text-align: end;
+}
